@@ -1,16 +1,22 @@
-# React + Vite
+# مصحح الأخطاء اللغوية الشائعة (Arabic Linter & Fixer) 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+أداة ذكية مبنية بـ **React** لتصحيح الأخطاء الإملائية واللغوية الشائعة في اللغة العربية، مع التركيز على الهمزات وتنوين النصب والسوابق اللغوية.
 
-Currently, two official plugins are available:
+## 🚀 المميزات
+- **تصحيح فوري:** يعالج أكثر من 500 قاعدة لغوية بفضل محرك الـ Regex المدمج.
+- **الذكاء في السوابق:** لا يصحح الكلمة المجردة فقط، بل يتعرف عليها مع حروف العطف (و، ف) وحروف الجر (ب، ل، ك).
+- **أداء عالٍ:** يعمل بالكامل في جانب العميل (Client-side)، مما يضمن خصوصية البيانات وسرعة المعالجة (Zero Latency).
+- **تصميم عصري:** واجهة مستخدم مريحة تدعم الوضع الليلي والنهاري بشكل تلقائي.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 التقنيات المستخدمة
+- **React.js** (Functional Components & Hooks).
+- **Vite** (للحصول على أفضل أداء في بناء المشروع).
+- **CSS3** (تنسيق متجاوب بالكامل مع اتجاه النص RTL).
+- **JavaScript ES6+** (القاموس المولد ديناميكياً).
 
-## React Compiler
+## 📖 كيف يعمل؟
+يستخدم المشروع مصفوفة قواعد (Dictionary) يتم توليدها ديناميكياً لتشمل الجذور اللغوية مع سوابقها، مما يوفر تغطية واسعة للأخطاء دون الحاجة لقاعدة بيانات ضخمة.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 طريقة التشغيل محلياً
+1. `npm install`
+2. `npm run dev`
