@@ -31,9 +31,9 @@ The project uses a dynamic **Rules Dictionary** that expands core roots into tho
    npm install
    ```
 3. **Run the development server:**
-```Bash
-npm run dev
-```
+   ```Bash
+   npm run dev
+   ```
 
 ## License
 This project is open-source and available under the MIT License.
