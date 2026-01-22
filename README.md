@@ -25,18 +25,17 @@ The project uses a dynamic **Rules Dictionary** that expands core roots into tho
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/hasanshofan/arabic-linter-fixer.git](https://github.com/hasanshofan/arabic-linter-fixer.git)
-
-
+   ```
 2. **Install dependencies:**
    ```Bash
-npm install
-
+   npm install
+   ```
 3. **Run the development server:**
-
 ```Bash
 npm run dev
+```
 
- ## License
+## License
 This project is open-source and available under the MIT License.
 
 
